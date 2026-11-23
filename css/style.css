@@ -1,0 +1,103 @@
+body{
+     font-family: "Days One", sans-serif;
+}
+
+.navbar-brand{
+    color: #CBFE1C;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #CBFE1C ;
+}
+.nav-link{
+    color: #F1F1F1;
+}
+.btn-warning{
+    background-color: #CBFE1C;
+}
+.border-nav{
+    border-bottom: #1E2939 2px solid;
+}
+
+
+
+header h1{
+    font-size: 60px;
+    width: 700px;
+}
+
+header h1 span{
+    color: #CBFE1C;
+}
+
+header .btn{
+    background-color: #CBFE1C;
+    border-color: #CBFE1C;
+    font-size: small;
+}
+
+header .btn-2{
+    background-color: transparent;
+    color: #CBFE1C;
+}
+
+
+header{
+    background-image: url(../images/hero-bg.jpg) ;
+    background-size: cover ;
+    min-height: 90vh;
+    background-attachment: fixed;
+    color: #FFF;
+    
+}
+header p{
+    color: #cfcfcf;
+    font-size: 1.1rem;
+}
+.back-ground{
+    background-color: rgba(0, 0, 0, 0.888);
+}
+
+header img{
+    border: #CBFE1C solid 0.25rem;
+    border-radius: 0.75rem;
+    height: 65%;
+    object-fit: cover;
+}
+
+.box{
+    width: 15%;
+    font-size: medium;
+    border: #cfcfcf solid;
+}
+
+
+
+section{
+    background-color: #0B0E13;
+    padding-block: 50px;
+}
+
+section h2{
+    text-align: center;
+    color: #CBFE1C;
+
+}
+section p{
+    text-align: center;
+    font-size: xxx-large;
+    
+}
+section .bg-transparent{
+    color: #CBFE1C;
+    border: #CBFE1C solid 0.25rem;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    position: unset;
+    width: 4%;
+    height: 4%;
+    border: #364153 solid 2px;
+    color: #364153;
+    border-radius: 90%;
+    padding: 4px;
+}
